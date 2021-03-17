@@ -1,2 +1,2 @@
-numberofproducts=$(ls _*.txt | wc -l)
+numberofproducts=$(ls | wc -l)
 echo $numberofproducts > numberofproducts.txt 
